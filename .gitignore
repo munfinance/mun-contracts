@@ -1,0 +1,9 @@
+node_modules/
+.secret
+build/
+.openzeppelin/.session
+node_modules
+
+#Hardhat files
+cache
+artifacts
