@@ -1107,6 +1107,97 @@
           }
         }
       }
+    },
+    "56aa3973df833c2ccc5e387d5d37f144dccac0c12c201e43c7c9028beb5e83b3": {
+      "address": "0x89fe86282911B5B377dAa0BC67CeE83b64EE150f",
+      "txHash": "0x7b45f61f5b398e3f101a44da0dd2bbdc6e18c9ca942ac9e479d745505be28b76",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol:37"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/access/Ownable.sol:18"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/access/Ownable.sol:78"
+          },
+          {
+            "contract": "CrowdsaleV2",
+            "label": "mun",
+            "type": "t_address",
+            "src": "contracts/CrowdsaleV2.sol:11"
+          },
+          {
+            "contract": "CrowdsaleV2",
+            "label": "rate",
+            "type": "t_uint256",
+            "src": "contracts/CrowdsaleV2.sol:12"
+          },
+          {
+            "contract": "CrowdsaleV2",
+            "label": "startDate",
+            "type": "t_uint256",
+            "src": "contracts/CrowdsaleV2.sol:13"
+          },
+          {
+            "contract": "CrowdsaleV2",
+            "label": "duration",
+            "type": "t_uint256",
+            "src": "contracts/CrowdsaleV2.sol:14"
+          },
+          {
+            "contract": "CrowdsaleV2",
+            "label": "tokensPurchased",
+            "type": "t_uint256",
+            "src": "contracts/CrowdsaleV2.sol:15"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
     }
   },
   "admin": {

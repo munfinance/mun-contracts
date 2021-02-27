@@ -5,7 +5,7 @@ import '@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/IERC20.so
 import '@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol';
 import '@openzeppelin/contracts-ethereum-package/contracts/math/SafeMath.sol';
 
-contract Crowdsale is Initializable, OwnableUpgradeSafe {
+contract CrowdsaleV2 is Initializable, OwnableUpgradeSafe {
     using SafeMath for uint256;
 
     address public mun;
