@@ -709,6 +709,404 @@
           }
         }
       }
+    },
+    "ad3d061090b3540d250531606ac0a402ecfab9f21008acc75e1d3ee521e5dd6c": {
+      "address": "0xbD385dAD54DA2A041F7682429C43eE333621C2ad",
+      "txHash": "0xfaee6e95fc9e03a6f8b32b8856b388af26349d3cc3309e5d17a9be1e700c95cb",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol:37"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/access/Ownable.sol:18"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/access/Ownable.sol:78"
+          },
+          {
+            "contract": "ERC165UpgradeSafe",
+            "label": "_supportedInterfaces",
+            "type": "t_mapping(t_bytes4,t_bool)",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/introspection/ERC165.sol:21"
+          },
+          {
+            "contract": "ERC165UpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/introspection/ERC165.sol:63"
+          },
+          {
+            "contract": "ERC721UpgradeSafe",
+            "label": "_holderTokens",
+            "type": "t_mapping(t_address,t_struct(UintSet)2582_storage)",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC721/ERC721.sol:32"
+          },
+          {
+            "contract": "ERC721UpgradeSafe",
+            "label": "_tokenOwners",
+            "type": "t_struct(UintToAddressMap)2107_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC721/ERC721.sol:35"
+          },
+          {
+            "contract": "ERC721UpgradeSafe",
+            "label": "_tokenApprovals",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC721/ERC721.sol:38"
+          },
+          {
+            "contract": "ERC721UpgradeSafe",
+            "label": "_operatorApprovals",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC721/ERC721.sol:41"
+          },
+          {
+            "contract": "ERC721UpgradeSafe",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC721/ERC721.sol:44"
+          },
+          {
+            "contract": "ERC721UpgradeSafe",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC721/ERC721.sol:47"
+          },
+          {
+            "contract": "ERC721UpgradeSafe",
+            "label": "_tokenURIs",
+            "type": "t_mapping(t_uint256,t_string_storage)",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC721/ERC721.sol:50"
+          },
+          {
+            "contract": "ERC721UpgradeSafe",
+            "label": "_baseURI",
+            "type": "t_string_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC721/ERC721.sol:53"
+          },
+          {
+            "contract": "ERC721UpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)41_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC721/ERC721.sol:555"
+          },
+          {
+            "contract": "NFTManager",
+            "label": "timeStaked",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts/NFTManager.sol:18"
+          },
+          {
+            "contract": "NFTManager",
+            "label": "amountStaked",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts/NFTManager.sol:19"
+          },
+          {
+            "contract": "NFTManager",
+            "label": "blueprints",
+            "type": "t_mapping(t_string_memory_ptr,t_array(t_uint256)4_storage)",
+            "src": "contracts/NFTManager.sol:26"
+          },
+          {
+            "contract": "NFTManager",
+            "label": "blueprintExists",
+            "type": "t_mapping(t_string_memory_ptr,t_bool)",
+            "src": "contracts/NFTManager.sol:27"
+          },
+          {
+            "contract": "NFTManager",
+            "label": "myTokenURI",
+            "type": "t_mapping(t_uint256,t_string_storage)",
+            "src": "contracts/NFTManager.sol:29"
+          },
+          {
+            "contract": "NFTManager",
+            "label": "tokenURIs",
+            "type": "t_array(t_string_storage)dyn_storage",
+            "src": "contracts/NFTManager.sol:30"
+          },
+          {
+            "contract": "NFTManager",
+            "label": "mintedTokenIds",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "contracts/NFTManager.sol:31"
+          },
+          {
+            "contract": "NFTManager",
+            "label": "lastId",
+            "type": "t_uint256",
+            "src": "contracts/NFTManager.sol:32"
+          },
+          {
+            "contract": "NFTManager",
+            "label": "mun",
+            "type": "t_address",
+            "src": "contracts/NFTManager.sol:33"
+          },
+          {
+            "contract": "NFTManager",
+            "label": "mus",
+            "type": "t_address",
+            "src": "contracts/NFTManager.sol:34"
+          },
+          {
+            "contract": "NFTManager",
+            "label": "oneDayInBlocks",
+            "type": "t_uint256",
+            "src": "contracts/NFTManager.sol:35"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_string_memory_ptr,t_array(t_uint256)4_storage)": {
+            "label": "mapping(string => uint256[4])"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_array(t_uint256)4_storage": {
+            "label": "uint256[4]"
+          },
+          "t_mapping(t_string_memory_ptr,t_bool)": {
+            "label": "mapping(string => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_string_storage)": {
+            "label": "mapping(uint256 => string)"
+          },
+          "t_array(t_string_storage)dyn_storage": {
+            "label": "string[]"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_mapping(t_address,t_struct(UintSet)2582_storage)": {
+            "label": "mapping(address => struct EnumerableSet.UintSet)"
+          },
+          "t_struct(UintSet)2582_storage": {
+            "label": "struct EnumerableSet.UintSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)2293_storage"
+              }
+            ]
+          },
+          "t_struct(Set)2293_storage": {
+            "label": "struct EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage"
+              },
+              {
+                "label": "_indexes",
+                "type": "t_mapping(t_bytes32,t_uint256)"
+              }
+            ]
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
+          "t_struct(UintToAddressMap)2107_storage": {
+            "label": "struct EnumerableMap.UintToAddressMap",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Map)1843_storage"
+              }
+            ]
+          },
+          "t_struct(Map)1843_storage": {
+            "label": "struct EnumerableMap.Map",
+            "members": [
+              {
+                "label": "_entries",
+                "type": "t_array(t_struct(MapEntry)1835_storage)dyn_storage"
+              },
+              {
+                "label": "_indexes",
+                "type": "t_mapping(t_bytes32,t_uint256)"
+              }
+            ]
+          },
+          "t_array(t_struct(MapEntry)1835_storage)dyn_storage": {
+            "label": "struct EnumerableMap.MapEntry[]"
+          },
+          "t_struct(MapEntry)1835_storage": {
+            "label": "struct EnumerableMap.MapEntry",
+            "members": [
+              {
+                "label": "_key",
+                "type": "t_bytes32"
+              },
+              {
+                "label": "_value",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+            "label": "mapping(address => mapping(address => bool))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_array(t_uint256)41_storage": {
+            "label": "uint256[41]"
+          },
+          "t_mapping(t_bytes4,t_bool)": {
+            "label": "mapping(bytes4 => bool)"
+          },
+          "t_bytes4": {
+            "label": "bytes4"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "beee65f6700cc0682ad062255970916abeb30123ea309a856bd5d318cd3c854c": {
+      "address": "0x3CD734c2c18F7579192AB783871C7D19a89cABa9",
+      "txHash": "0xa19abbd3d391cc30574cdaed5ee72912d74904e867abd637d481b9ee8b6ce0e4",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol:37"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/access/Ownable.sol:18"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-ethereum-package/contracts/access/Ownable.sol:78"
+          },
+          {
+            "contract": "Crowdsale",
+            "label": "mun",
+            "type": "t_address",
+            "src": "contracts/Crowdsale.sol:11"
+          },
+          {
+            "contract": "Crowdsale",
+            "label": "rate",
+            "type": "t_uint256",
+            "src": "contracts/Crowdsale.sol:12"
+          },
+          {
+            "contract": "Crowdsale",
+            "label": "startDate",
+            "type": "t_uint256",
+            "src": "contracts/Crowdsale.sol:13"
+          },
+          {
+            "contract": "Crowdsale",
+            "label": "duration",
+            "type": "t_uint256",
+            "src": "contracts/Crowdsale.sol:14"
+          },
+          {
+            "contract": "Crowdsale",
+            "label": "tokensPurchased",
+            "type": "t_uint256",
+            "src": "contracts/Crowdsale.sol:15"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
     }
   },
   "admin": {

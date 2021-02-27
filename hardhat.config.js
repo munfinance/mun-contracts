@@ -35,19 +35,19 @@ module.exports = {
       url: 'https://data-seed-prebsc-1-s2.binance.org:8545/',
       chainId: 97,
       accounts: [privateKey],
-      gasPrice: 10e9, // 1 gwei
+      // gasPrice: 10e9, // 1 gwei
     },
     bsc: {
       url: 'https://bsc-dataseed.binance.org/',
       chainId: 56,
       accounts: [privateKey],
-      gasPrice: 3e9, // 1 gwei
+      // gasPrice: 5e9, // 1 gwei
     },
     ropsten: {
       url: 'https://ropsten.infura.io/v3/87ac5f84d691494588f2162b15d1523d',
       chainId: 3,
       accounts: [privateKey],
-      gasPrice: 10e9, // 1 gwei
+      // gasPrice: 10e9, // 1 gwei
     },
   },
   etherscan: {
